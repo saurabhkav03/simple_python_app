@@ -13,5 +13,3 @@ def hello():
 # This conditional statement ensures that the Flask web server (app.run()) is only started if the script is executed directly (not imported as a module). When you run this script from the command line, Flask starts a development server on your local machine, listening for incoming HTTP requests on the default port (usually 5000).
 if __name__ == '__main__':
     app.run()
-
-
